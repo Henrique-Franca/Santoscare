@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.login-container {
+    flex: 0 0 30%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.login-form-wrapper {
+    background-color: #cfe2f3; /* Cor de fundo azul claro */
+    border-radius: 10px; /* Bordas redondas */
+    padding: 90px;
+    width: 80%; /* Ajusta a largura */
+}
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ajusta a largura do formulário */
+}
+
+.image-container {
+    flex: 1;
+    background-image: url('./../..//componens/img/cuidador.jpg');
+    background-size: cover;
+    background-position: center;
+}

@@ -1,22 +1,13 @@
 import './home.css';
+import Header from '../../componens/Header';
 
-function HomePage(){
-    return(
-        <body>
 
-<div class="sidenav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-</div>
+function HomePage() {
+  return (
 
-<div class="content">
-  <h2>CSS Template</h2>
-  <p>A full-height, fixed sidenav and content.</p>
-</div>
+    <Header/>
 
-</body>
-    )
+  )
 }
 
 export default HomePage;

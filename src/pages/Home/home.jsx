@@ -4,8 +4,12 @@ import Header from '../../componens/Header';
 
 function HomePage() {
   return (
-
-    <Header/>
+    <div>
+      <Header />
+      <div>
+        <h2>Home</h2>
+      </div>
+    </div>
 
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Content } from './styles'
+
 import { 
   FaTimes, 
   FaHome, 
@@ -13,6 +14,7 @@ import {
 } from 'react-icons/fa'
 
 import SidebarItem from '../SidebarItem'
+import { Link } from 'react-router-dom'
 
 const Sidebar = ({ active }) => {
 
@@ -24,8 +26,8 @@ const Sidebar = ({ active }) => {
     <Container sidebar={active}>
       <FaTimes onClick={closeSidebar} />  
       <Content>
-        <SidebarItem Icon={FaHome} Text="Home" />
-        <SidebarItem Icon={FaChartBar} Text="Statistics" />
+        <Link to="/home" ><SidebarItem Icon={FaHome} Text="Home" /> </Link>
+        <Link  to="/Statistics"><SidebarItem Icon={FaChartBar} Text="Statistics" /></Link>
         <SidebarItem Icon={FaUserAlt} Text="Users" />
         <SidebarItem Icon={FaEnvelope} Text="Mail" />
         <SidebarItem Icon={FaRegCalendarAlt} Text="Calendar" />

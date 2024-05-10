@@ -13,35 +13,34 @@ const LoginForm = () => {
     };
 
     const navigate = useNavigate();
-    const goToHomePage = () =>{
+    const goToHomePage = () => {
         navigate('home');
     }
 
     return (
-        <div className="container">
-            <div className="login-container">
-                <div className="login-form-wrapper">
-                    <h2>Login</h2>
-                    <div className="login-form">
-                        <input
-                            type="text"
-                            placeholder="Username"
-                            value={username}
-                            onChange={(e) => setUsername(e.target.value)}
-                        />
-                        <br />
-                        <input
-                            type="password"
-                            placeholder="Password"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                        />
-                        <br />
-                        <button onClick={goToHomePage}>Login</button>
-                    </div>
+        <div className="container" >
+
+            <div className="login-form-wrapper">
+                <h2>Login</h2>
+                <div className="login-form">
+                    <input
+                        type="text"
+                        placeholder="Username"
+                        value={username}
+                        onChange={(e) => setUsername(e.target.value)}
+                    />
+                    <br />
+                    <input
+                        type="password"
+                        placeholder="Password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
+                    <br />
+                    <button onClick={goToHomePage}>Login</button>
                 </div>
             </div>
-            <div className="image-container"></div>
+
         </div>
     );
 };

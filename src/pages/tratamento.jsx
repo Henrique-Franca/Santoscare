@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../../componens/Header';
+import Header from '../componens/Header';
 
 
 function Tratamento() {

@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  background-color: #1A202C; 
+  background-color: #e6f7ff; 
   font-size: 20px;
-  color: white;
+  color: black;
   padding: 10px;
   cursor: pointer;
   border-radius: 10px;
@@ -16,6 +16,6 @@ export const Container = styled.div`
   }
 
   &:hover {
-    background-color: black;
+    background-color: white;
   }
 `;

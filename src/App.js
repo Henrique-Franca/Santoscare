@@ -3,13 +3,13 @@ import React from 'react';
 import './App.css';
 import LoginForm from './pages/Login/LoginForm'; // Importe o componente LoginForm
 import HomePage from './pages/Home/home';
-import Statistics from './pages/Statistics/statistics';
-import Escalas from './pages/Escalas/escalas'
-import Financeiros from './pages/Financeiros/financiero'
-import MonitorOper from './pages/MonitorOper/monitoroper'
-import Pacientes from './pages/Pacientes/pacientes'
-import Proficionais from './pages/Proficionais/proficionais'
-import Tratamento from './pages/Tratamento/tratamento'
+import Statistics from './pages/statistics';
+import Escalas from './pages/escalas'
+import Financeiros from './pages/financiero'
+import MonitorOper from './pages/monitoroper'
+import Pacientes from './pages/pacientes'
+import Proficionais from './pages/proficionais'
+import Tratamento from './pages/tratamento'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
